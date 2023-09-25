@@ -16,6 +16,7 @@ p {
 }
 
 :root {
+  --formulari-font-family: sans-serif;
 }
 
 ul {
@@ -25,4 +26,19 @@ ul {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.user-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 300px;
+  margin: 50px;
+}
+
+.form-control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--formulari-font-family);
 }
